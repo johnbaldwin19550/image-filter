@@ -1,0 +1,11 @@
+To load files:
+A file dialog should appear as the program is opened.  To edit an image, select a file and press "Open".
+If the file does not load:
+Make sure that the selected file is not a shortcut to an image, but an actual image file.
+Check the image file format.  Only images compatible with javax.imageio.ImageIO will load.  This will include JPGs, PNGs, GIFs, and BMPs.
+Editing the color curves:
+The three graphs on the left represent the color curves of the selected channels (red, green, blue or hue, saturation, value).  By default, these graphs will display a straight diagonal line, representing that each channel is unchanged.  To edit the color curves, click and drag the mouse.  If you click in a place where there are no existing points to plot (points are represented by small circles), a new point will be created at the location of the cursor.   You can drag this point to any location on the graph to edit the curve.  If you click on an existing point, you may edit the position of that point without creating a new one.   To reset the curve, left click or double-click on the graph.
+Applying changes:
+To apply the new color curves to the selected image, press the "Apply" button.  This will redraw the image.
+Saving a new file:
+To save the image to a new file, click the "Save" button.  Browse to a folder of your choosing, and type the desired file name and extension. The program will automatically save the image in the file format according to the requested file extension, but if no file extension is specified, it will be saved as a JPG file.
